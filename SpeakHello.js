@@ -4,6 +4,6 @@
   speakWord.speak = function (name) {
     console.log(speakWord + " " + name);
   }
-  windows.speakWord=speakWord;
+  window.speakWord=speakWord;
 })(window);
 
